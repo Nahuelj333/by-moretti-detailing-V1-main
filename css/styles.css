@@ -183,7 +183,9 @@ body {
 	}
 
 	.hero {
-		background-image: url("/assets/auto.png");
+		min-height: auto; /* Evita altura forzada */
+		padding: 2rem 1rem;
+		background-image: url("../assets/auto.png");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
